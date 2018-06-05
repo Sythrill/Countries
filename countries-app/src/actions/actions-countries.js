@@ -1,4 +1,4 @@
-export const GET_COUNTRIES = 'GET_COUNTRIES';
+export const GET_COUNTRIES = "GET_COUNTRIES";
 
 export function getCountries() {
     return {
@@ -6,7 +6,7 @@ export function getCountries() {
     }
 }
 
-export const DELETE_COUNTRY = 'DELETE_COUNTRY';
+export const DELETE_COUNTRY = "DELETE_COUNTRY";
 
 export function deleteCountry(id) {
     return {
@@ -15,7 +15,7 @@ export function deleteCountry(id) {
     };
 }
 
-export const GET_COUNTRY = 'GET_COUNTRY';
+export const GET_COUNTRY = "GET_COUNTRY";
 
 export function getCountry(id) {
     return {
@@ -24,7 +24,7 @@ export function getCountry(id) {
     }
 }
 
-export const SEARCH_COUNTRIES = 'SEARCH_COUNTRIES';
+export const SEARCH_COUNTRIES = "SEARCH_COUNTRIES";
 
 export function searchCountries(searchText) {
     return {
@@ -33,7 +33,7 @@ export function searchCountries(searchText) {
     }
 }
 
-export const SET_CONTINENT = 'SET_CONTINENT';
+export const SET_CONTINENT = "SET_CONTINENT";
 
 export function setContinent(name) {
     return {
