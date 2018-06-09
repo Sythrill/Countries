@@ -1,14 +1,14 @@
 #root {
-    background: #eee;
+    background: #011A27;
     height: 100vh;
 }
 
 .country-wrapper {
-    height: 400px;
-    width: 300px;
+    height: 100%;
+    width: 100%;
     border-radius: 10px;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.13);
-    margin: 20px auto;
+    box-shadow: 0 14px 28px #F0810F, 0 10px 10px #F0810F;
+    margin: 50px auto;
 }
 
 header {
@@ -22,13 +22,12 @@ header {
 
 .country-photo {
     position: absolute;
-    width: 115px;
+    width: 200px;
     height: 115px;
-    border-radius: 50%;
-    border: 10px solid #003e9f;
+    border-radius: 20%;
     left: 0;
     right: 0;
-    bottom: -50px;
+    bottom: -60px;
     margin: 0 auto;
 }
 
@@ -42,7 +41,7 @@ h1 {
     letter-spacing: 1.2px;
     text-align: center;
     font-weight: 600;
-    color: #323232
+    color: #E6DF44;
 }
 
 h2 {
@@ -50,7 +49,7 @@ h2 {
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 1.2px;
-    color: #5f5f5f;
+    color: #E6DF44;
 }
 
 .info {
@@ -70,13 +69,13 @@ h2 {
 .info div span:nth-of-type(1) {
     font-weight: bold;
     font-size: 24px;
-    color: #323232;
+    color: #F0810F;
 }
 
 .info div span:nth-of-type(2) {
     font-size: 12px;
     text-transform: uppercase;
-    color: #5f5f5f;
+    color: #8EBA43;
     letter-spacing: .5px;
     padding: 6px 0;
 }
@@ -86,11 +85,12 @@ h2 {
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
+    background: #011A27;
 }
 
 .single-country {
     width: 26%;
-    height: 300px;
+    height: 200px;
     margin-top: 50px;
 }
 
@@ -100,6 +100,38 @@ h2 {
 }
 
 .country-logo {
-    max-width: 100%;
-    max-height: 100%;
+    width: 300px;
+    height: 200px;
+}
+
+.button {
+    margin-top: 5px;
+    margin-left: 200px;
+
+}
+
+.search-country {
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+.navbar-dark .navbar-nav > li > a {
+    color: #F0810F;
+}
+
+.navbar-dark .navbar-nav > li > a:hover {
+    color: #F0810F;
+}
+
+.navbar-brand, .navbar-nav > li > a {
+    text-shadow: 0 1px 0 #F0810F;
+}
+
+.navbar-dark .navbar-brand, .navbar-dark .navbar-brand:hover {
+    color: #F0810F;
+}
+
+.list {
+    color: #8EBA43;
 }

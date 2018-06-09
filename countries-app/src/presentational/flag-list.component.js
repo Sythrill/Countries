@@ -1,6 +1,7 @@
 import React from "react";
 import {Link} from "react-router";
 import CountryFlag from "./flag.component";
+import '../country.css';
 
 const CountryFlagList = (props) => (
     <div className="countries-list">
@@ -10,6 +11,9 @@ const CountryFlagList = (props) => (
                     <Link className="logo" to={"countries/country/" + country.id}>
                         <CountryFlag country={country}/>
                     </Link>
+                    <button type="button" className="button btn btn-danger btn-sm" onClick={props.deleteCountry.bind(null, country.id)}>
+                        <span className="glyphicon glyphicon-trash"></span> DELETE
+                    </button>
                 </div>
             )
         })}

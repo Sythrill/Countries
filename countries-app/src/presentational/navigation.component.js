@@ -2,11 +2,12 @@ import React from "react";
 import {Link} from "react-router";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/css/bootstrap-theme.css";
+import '../country.css';
 
 const Navigation = props => (
     <div>
-        <nav className="navbar navbar-default">
-            <div className="container-fluid">
+        <nav className="navbar navbar-dark">
+            <div className="navi, container-fluid">
                 <div className="navbar-header">
                     <Link className="navbar-brand" to="/">Państwa.js</Link>
                 </div>
