@@ -1,0 +1,137 @@
+#root {
+    background: #011A27;
+    height: 100vh;
+}
+
+.country-wrapper {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px #F0810F, 0 10px 10px #F0810F;
+    margin: 50px auto;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 30%;
+    background: #003e9f;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.country-photo {
+    position: absolute;
+    width: 200px;
+    height: 115px;
+    border-radius: 20%;
+    left: 0;
+    right: 0;
+    bottom: -60px;
+    margin: 0 auto;
+}
+
+.country-info {
+    padding: 55px 5px 65px;
+    font-family: 'Roboto Condesed';
+}
+
+h1 {
+    font-size: 28px;
+    letter-spacing: 1.2px;
+    text-align: center;
+    font-weight: 600;
+    color: #E6DF44;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    color: #E6DF44;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info div {
+    text-align: center;
+    width: 33%;
+}
+
+.info div span {
+    display: block;
+}
+
+.info div span:nth-of-type(1) {
+    font-weight: bold;
+    font-size: 24px;
+    color: #F0810F;
+}
+
+.info div span:nth-of-type(2) {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #8EBA43;
+    letter-spacing: .5px;
+    padding: 6px 0;
+}
+
+.countries-list {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #011A27;
+}
+
+.single-country {
+    width: 26%;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.country-logo-wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+.country-logo {
+    width: 300px;
+    height: 200px;
+}
+
+.button {
+    margin-top: 5px;
+    margin-left: 200px;
+
+}
+
+.search-country {
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+.navbar-dark .navbar-nav > li > a {
+    color: #F0810F;
+}
+
+.navbar-dark .navbar-nav > li > a:hover {
+    color: #F0810F;
+}
+
+.navbar-brand, .navbar-nav > li > a {
+    text-shadow: 0 1px 0 #F0810F;
+}
+
+.navbar-dark .navbar-brand, .navbar-dark .navbar-brand:hover {
+    color: #F0810F;
+}
+
+.list {
+    color: #8EBA43;
+}
